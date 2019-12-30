@@ -1,0 +1,6 @@
+framework module Pods_EquityListerTests {
+  umbrella header "Pods-EquityListerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

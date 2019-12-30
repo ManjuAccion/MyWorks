@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseURL</key>
+	<string>https://services.investo2o.com/assetmanager-ws/api/v3/</string>
+	<key>Header</key>
+	<dict>
+		<key>Access-Token</key>
+		<string>MTM3YjhiMDgtMGUxNi00NGYyLThhM2ItN2Y2OWU0YzYwZGJiJVVTRVIlMTIzMTU=</string>
+		<key>Agent</key>
+		<string>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36</string>
+		<key>User-IP</key>
+		<string>106.51.66.2</string>
+		<key>User-ID</key>
+		<string>12315</string>
+	</dict>
+</dict>
+</plist>

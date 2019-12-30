@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="260" id="KGk-i7-Jjw" customClass="CategoryImageTableViewCell" customModule="AccionLX" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="317" height="260"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="317" height="260"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R8n-3d-7N5">
+                        <rect key="frame" x="5" y="5" width="307" height="250"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fHP-EQ-aCj">
+                                <rect key="frame" x="262" y="5" width="35" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="L1Y-9I-acW"/>
+                                    <constraint firstAttribute="width" constant="35" id="yHB-sF-lwb"/>
+                                </constraints>
+                                <state key="normal" image="favorite_24px"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carImage" translatesAutoresizingMaskIntoConstraints="NO" id="FTV-ul-Ag6">
+                                <rect key="frame" x="5" y="45" width="297" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="FTV-ul-Ag6" firstAttribute="top" secondItem="fHP-EQ-aCj" secondAttribute="bottom" constant="5" id="B2I-Kh-rdz"/>
+                            <constraint firstItem="FTV-ul-Ag6" firstAttribute="leading" secondItem="R8n-3d-7N5" secondAttribute="leading" constant="5" id="ClY-mt-59a"/>
+                            <constraint firstItem="fHP-EQ-aCj" firstAttribute="top" secondItem="R8n-3d-7N5" secondAttribute="top" constant="5" id="E5I-7w-hmV"/>
+                            <constraint firstAttribute="bottom" secondItem="FTV-ul-Ag6" secondAttribute="bottom" constant="5" id="Ma1-dq-fvV"/>
+                            <constraint firstAttribute="trailing" secondItem="FTV-ul-Ag6" secondAttribute="trailing" constant="5" id="koy-JR-p5x"/>
+                            <constraint firstAttribute="trailing" secondItem="fHP-EQ-aCj" secondAttribute="trailing" constant="10" id="rCG-qY-Mog"/>
+                            <constraint firstAttribute="height" constant="250" id="zqH-Ez-IBp"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="R8n-3d-7N5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="2aE-Rq-DoA"/>
+                    <constraint firstAttribute="bottom" secondItem="R8n-3d-7N5" secondAttribute="bottom" constant="5" id="TEK-d4-BB2"/>
+                    <constraint firstItem="R8n-3d-7N5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="drv-5d-6vG"/>
+                    <constraint firstAttribute="trailing" secondItem="R8n-3d-7N5" secondAttribute="trailing" constant="5" id="fje-Bw-kth"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="categoryOverlay" destination="R8n-3d-7N5" id="aEh-uS-DCG"/>
+            </connections>
+            <point key="canvasLocation" x="135.50724637681159" y="196.20535714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="carImage" width="318" height="181"/>
+        <image name="favorite_24px" width="32" height="32"/>
+    </resources>
+</document>

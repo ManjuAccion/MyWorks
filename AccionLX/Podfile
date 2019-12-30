@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AccionLX' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AccionLX
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+  pod 'ObjectMapper'
+  pod 'SVProgressHUD'
+  pod 'FSCalendar'
+
+  pod 'UIFloatLabelTextField'
+  pod 'SSProgressBar'
+  pod 'SDWebImage', '~> 5.0'
+  pod 'SWRevealViewController', '~> 2.3.0'
+  pod 'R.swift', '~> 5.0.3'
+
+  
+  target 'AccionLXTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AccionLXUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
