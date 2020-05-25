@@ -18,3 +18,8 @@ class CategoryCollectionViewCell: UICollectionViewCell {
     }
 
 }
+
+
+
+
+
