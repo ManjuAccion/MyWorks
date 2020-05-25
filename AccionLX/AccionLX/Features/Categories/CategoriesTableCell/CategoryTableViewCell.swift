@@ -15,6 +15,8 @@ class CategoryTableViewCell: UITableViewCell,UICollectionViewDelegate,UICollecti
     @IBOutlet weak var categoryOverlay: UIView!
     @IBOutlet weak var categoryCollectionView: UICollectionView!
     
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         let categoryNib = UINib(nibName: "CategoryCollectionViewCell", bundle: nil)

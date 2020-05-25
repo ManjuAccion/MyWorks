@@ -128,10 +128,10 @@
 		2871CD3B2382A393005F809D /* CategoriesTableCell */ = {
 			isa = PBXGroup;
 			children = (
+				2871CD472382B1C8005F809D /* CategoryImageTableViewCell.xib */,
+				2871CD462382B1C8005F809D /* CategoryImageTableViewCell.swift */,
 				2871CD3C2382A65D005F809D /* CategoryTableViewCell.swift */,
 				2871CD3D2382A65D005F809D /* CategoryTableViewCell.xib */,
-				2871CD462382B1C8005F809D /* CategoryImageTableViewCell.swift */,
-				2871CD472382B1C8005F809D /* CategoryImageTableViewCell.xib */,
 			);
 			path = CategoriesTableCell;
 			sourceTree = "<group>";
@@ -148,8 +148,8 @@
 		7800B5B923828BAC000ABB4A /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				2871CD402382A96F005F809D /* CategoriesCollectionViewCells */,
 				2871CD3B2382A393005F809D /* CategoriesTableCell */,
+				2871CD402382A96F005F809D /* CategoriesCollectionViewCells */,
 				7800B5BA23828BB7000ABB4A /* ALCategoriesVC.swift */,
 			);
 			path = Categories;
