@@ -10,7 +10,17 @@ import UIKit
 
 
 
+
+
+
+
+
+
 class CategoryTableViewCell: UITableViewCell,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
+    
+    
+    
+    
     
     @IBOutlet weak var categoryOverlay: UIView!
     @IBOutlet weak var categoryCollectionView: UICollectionView!
